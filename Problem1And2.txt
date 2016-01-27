@@ -4,6 +4,7 @@ Promblem 1:
 		Looking up information relevant to the course online.
 		Asking the course staff for help.
 	Part (b):
+		Eclipse.
 		Sublime.
 	Part (c):
 		Each student has 3 late days of which only 1 can be used per HW.
