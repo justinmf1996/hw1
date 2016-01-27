@@ -40,10 +40,39 @@ int main(int argc, char* argv[])
 			  output << "Error - incorrect command" << endl;
 		  }
 		  else {
-
+		  	floorsizes[i-1] = k;
+		  	
+		  	int **level = new int*[k];
+		  	for(int f = 0; f < i; f++){
+		  		level[i][] = 
+		  	}
+		  	if(floorsizes[i] != 0){
+		  		output << "Error - floor i is not empty" << endl;
+		  	}else if(i > floors || i < 0){
+		  		output << "Error - floor i does not exist" << endl;
+		  	}else{
+		  		floorsizes[i] =
+		  		trojans = new string**[]
+		  	}
 		  }
 	  }
 	  else if (curr == "MOVEOUT") {
+	  	int i;
+	  	ss >> i;
+	  	if(ss.fail()){
+	  		output << "Error - incorrect command" << endl;
+	  	}
+	  	else{
+	  		if(floorsizes[i] == 0){
+	  			ouput << "Error - no students on floor" << endl;
+	  		}else if(i > floors || i < 0){
+	  			output << "Error - floor i does not exist"
+	  		}else{
+	  			floorsizes[i] = 0;
+	  			delete []
+	  		}
+
+	  	}
 
 	  }
 	  else if (curr == "OBTAIN") {
