@@ -1,0 +1,25 @@
+Promblem 1:
+
+	Part (a):
+		Looking up information relevant to the course online.
+		Asking the course staff for help.
+	Part (b):
+	  Eclipse.
+		Sublime.
+	Part (c):
+		Each student has 3 late days of which only 1 can be used per HW.
+	Part (d): 
+		Complete the online late submission form.
+
+Problem 2:
+
+	Part (a):
+		gitbash (windows)
+		Terminal (Mac or Linux)
+	Part (b):
+		1) 
+			git add hw1q2b.cpp
+		2)
+			git status
+	Part (c):
+		Git will prompt you to give a message associated with the files being committed using the editor configured to your account. Then it will commit the files and put them in the repository history.
