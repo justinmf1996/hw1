@@ -26,7 +26,13 @@ bool helper(stringstream &input, int len)
 	bool val = helper(input, len-2);
 
 	//make your changes below this line.
+	char cur;
+	input >> cur;
+	if(cur != prev){
+		val = false;
+	}
 	return val;
+
 }
 
 //do not change the main function.
